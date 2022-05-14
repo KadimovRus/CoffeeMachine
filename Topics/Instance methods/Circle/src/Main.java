@@ -1,0 +1,14 @@
+
+class Circle {
+
+    double radius;
+
+    // write methods here
+    public double getLength() {
+        return this.radius * 2 * Math.PI;
+    }
+
+    public double getArea() {
+        return this.radius * this.radius * Math.PI;
+    }
+}
